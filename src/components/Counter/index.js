@@ -1,4 +1,5 @@
 import React from 'react';
+import Timer from '../Timer';
 
 const Counter = props => {
 
@@ -18,18 +19,18 @@ const Counter = props => {
   React.useEffect(() => {
     const interval = setInterval(() => {
       updateLightsOut()
-    }, 1);
+    }, 1000);
 
     return () => {
       clearInterval(interval);
     }
-  }, [])
+  })
 
   return (
     <div>
       <p>lights out</p>
-      <h1>
-        {data}
+      <h1 style={{fontSize: "100px", margin: "0px"}}>
+        <Timer time={data}/>
       </h1>
       <h4>away we go...</h4>
     </div>
