@@ -29,7 +29,7 @@ const Counter = props => {
   return (
     <div>
       <p>lights out</p>
-      <h1 style={{fontSize: "100px", margin: "0px"}}>
+      <h1 style={{fontSize: "100px", margin: "0px",}}>
         <Timer time={data}/>
       </h1>
       <h4>away we go...</h4>

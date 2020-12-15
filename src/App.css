@@ -7,6 +7,14 @@
   text-align: center;
 }
 
+section span{
+  background-color: #464646;
+  border-radius: 10px;
+  box-shadow: 0 15px 10px rgba(12, 16, 31, 0.4);
+  padding: 1rem;
+  margin: 1rem;
+}
+
 body {
   background-color: #191919;
   color: #fff;
@@ -15,6 +23,11 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+p,
+h4{
+  padding: 2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {

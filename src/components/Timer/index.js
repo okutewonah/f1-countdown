@@ -12,9 +12,20 @@ const Timer = props => {
   }
 
   return (
-    <div>
-      {`${extractTwoDigitNumber(days)}:${extractTwoDigitNumber(hours)}:${extractTwoDigitNumber(minutes)}:${extractTwoDigitNumber(seconds)}`}
-    </div>
+    <section>
+      <span>
+        {`${extractTwoDigitNumber(days)}`}
+      </span>
+      <span>
+        {`${extractTwoDigitNumber(hours)}`}
+      </span>
+      <span>
+        {`${extractTwoDigitNumber(minutes)}`}
+      </span>
+      <span>
+        {`${extractTwoDigitNumber(seconds)}`}
+      </span>      
+    </section>
   );
 };
 
