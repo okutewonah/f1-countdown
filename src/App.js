@@ -1,6 +1,6 @@
 import './App.css';
 import Counter from './components/Counter';
-import logo from './assets/images/logo.png'
+import logo from './assets/images/F1-Logo.png'
 
 function App() {
   return (
