@@ -7,12 +7,18 @@
   text-align: center;
 }
 
-section span{
-  background-color: #464646;
-  border-radius: 10px;
-  box-shadow: 0 15px 10px rgba(12, 16, 31, 0.4);
-  padding: 1rem;
-  margin: 1rem;
+section {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;  
+
+  div {
+    background-color: #464646;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px rgba(12, 16, 31, 0.4);
+    padding: 1rem;
+    margin: 1rem;
+  }
 }
 
 body {

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../App.scss';
 
 const Timer = props => {
 
@@ -13,18 +14,18 @@ const Timer = props => {
 
   return (
     <section>
-      <span>
+      <div>
         {`${extractTwoDigitNumber(days)}`}
-      </span>
-      <span>
+      </div>
+      <div>
         {`${extractTwoDigitNumber(hours)}`}
-      </span>
-      <span>
+      </div>
+      <div>
         {`${extractTwoDigitNumber(minutes)}`}
-      </span>
-      <span>
+      </div>
+      <div>
         {`${extractTwoDigitNumber(seconds)}`}
-      </span>      
+      </div>      
     </section>
   );
 };
