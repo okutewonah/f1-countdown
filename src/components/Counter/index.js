@@ -4,7 +4,7 @@ import Timer from '../Timer';
 const Counter = props => {
 
   // const dateStr = process.env.REACT_APP_DATE;
-  const dateStr = "2021.03.21"
+  const dateStr = "2021.03.28"
   let nowDate = new Date();
 
   let lightsOutDate = new Date(dateStr);
@@ -27,12 +27,12 @@ const Counter = props => {
   })
 
   return (
-    <div>
+    <div className="content">
       <p>lights out</p>
-      <h1 style={{fontSize: "100px", margin: "0px",}}>
+      <h1>
         <Timer time={data}/>
       </h1>
-      <h4>away we go...</h4>
+      <h4>and away we go!!!</h4>
     </div>
   );
 };

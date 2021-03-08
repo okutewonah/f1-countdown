@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'formula1-display-bold';
+  src: url('../../fonts/Formula1-Bold_web_0.ttf');
+}
+
+body {
+  background-color: #191919;
+  color: #fff;
+  font-family: 'formula1-display-bold';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+.timer {
+  display: flex;
+  
+  &__item {
+    background-color: #464646;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px rgb(12, 16, 31 / 40%);
+    padding: 0.25rem;
+    margin-left: 0.19rem;
+    margin-right: 0.19rem;
+    width: 4.625rem;
+
+    @include atSmall {
+      padding: 0.5rem;
+      margin-left: 0.38rem;
+      margin-right: 0.38rem;
+      width: 8.25rem;
+    }
+
+    @include atMedium {
+      padding: 1rem;
+      margin-left: 0.76rem;
+      margin-right: 0.76rem;
+      width: 10rem;
+    }
+
+    &--para {
+      margin: auto !important;
+      font-size: 3rem;
+      font-weight: 100;
+      text-align: center;
+
+      @include atSmall {
+        font-size: 4.688rem
+      }
+
+      @include atMedium {
+        font-size: 6.25rem
+      }
+    }
+  }
+}

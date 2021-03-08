@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../App.scss';
 
 const Timer = props => {
 
@@ -13,18 +12,18 @@ const Timer = props => {
   }
 
   return (
-    <section>
-      <div>
-        {`${extractTwoDigitNumber(days)}`}
+    <section className="timer">
+      <div className="timer__item">
+        <p className="timer__item--para">{`${extractTwoDigitNumber(days)}`}</p>
       </div>
-      <div>
-        {`${extractTwoDigitNumber(hours)}`}
+      <div className="timer__item">
+        <p className="timer__item--para">{`${extractTwoDigitNumber(hours)}`}</p>
       </div>
-      <div>
-        {`${extractTwoDigitNumber(minutes)}`}
+      <div className="timer__item">
+        <p className="timer__item--para">{`${extractTwoDigitNumber(minutes)}`}</p>
       </div>
-      <div>
-        {`${extractTwoDigitNumber(seconds)}`}
+      <div className="timer__item">
+        <p className="timer__item--para">{`${extractTwoDigitNumber(seconds)}`}</p>
       </div>      
     </section>
   );
