@@ -4,7 +4,7 @@ import Timer from '../Timer';
 const Counter = props => {
 
   // const dateStr = process.env.REACT_APP_DATE;
-  const dateStr = "2021.03.28"
+  const dateStr = "2021.04.18"
   let nowDate = new Date();
 
   let lightsOutDate = new Date(dateStr);
